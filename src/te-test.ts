@@ -27,7 +27,7 @@ function fn(msg:string):void{
 //函数如果声明就是必选参
 //?号表示可选参数
 function say(name:string,age?:number):string {
-    console.log(name,age)
+    return name
 }
 say('tom',11);
 say('tom',);
@@ -41,7 +41,5 @@ function fn1(a:object):string;
 function fn1(a:object):string;
 
 function fn1(a:any):any{
-if(type==='object'){
-    console.log(1)
-}
+
 };
